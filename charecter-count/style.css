@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: cursive;
+  background-color: salmon;
+}
+.container {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.container h2 {
+  text-align: center;
+}
+textarea {
+  resize: none;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: large;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+textarea::placeholder {
+  font-family: cursive;
+}
+.count-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.Total-counter {
+  color: green;
+}
+.Remaining-counter {
+  color: orangered;
+}
+.count-container p {
+  color: gray;
+}
